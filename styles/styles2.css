@@ -146,3 +146,168 @@ footer hr{
 .footer-icons i{
     margin-left: 20px;
 }
+/* Responsive for Mobile */
+@media only screen and (max-width: 688px) {
+    header{
+        width: 350px;
+        height: fit-content;
+        margin: 40px 20px 40px;
+        
+    }
+    .head-section{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .head-blog{
+        width: 260px;
+        height: 200px;
+        margin-top: 20px;
+        margin-left: 0px; 
+        padding: 0;
+    }
+    .head-blog h1{
+        font-size: 40px;
+    }
+    .head-blog p{
+        margin-top: 20px;
+        width: 70%;
+        height: 70px;
+        font-size: 15px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .head-image img{
+        width: 300px;
+        height: 300px;
+        margin-top: 200px;
+        margin-left: 0px;
+        padding: 0px;
+    }
+    .mid-section{
+        width: 40vh;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .side-banner{
+        width: 300px;
+        height: 200px;
+        margin: 24px 82px 24px 82px;
+        background-color: white;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+    .side-banner button{
+        margin-bottom: 20px;
+    }
+    main{
+        margin-bottom: 30px;
+    }
+    .matches{
+        width: 250px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+    }
+    .match{
+        justify-content: center;
+        width: 100%;
+        margin-left: 7px;
+    }
+    .footer{
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .footer-items ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-items ul li a{
+        margin: 2px;
+    }
+}
+/* Responsive for Tablet or Ipad */
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+    header{
+        width: 90%;
+        height: fit-content;
+        margin: 40px 20px 40px 40px;
+    }
+    .head-section{
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+    }
+    .head-blog{
+        width: 320px;
+        height: 280px;
+        margin-left: 80px;
+        margin-top: 200px;
+        margin-bottom: 100px;
+        padding: 0;
+    }
+    .head-blog h1{
+        font-size: 40px;
+    }
+    .head-blog p{
+        margin-top: 20px;
+        width: 70%;
+        height: 70px;
+        font-size: 15px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .head-image img{
+        width: 320px;
+        height: 350px;
+        margin-top: 250px;
+        margin-left: 0px;
+        padding: 0px;
+    }
+    .mid-section{
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 120px;
+    }
+    .side-banner{
+        width: 600px;
+        height: 100px;
+        margin: 24px 70px 24px -30px;
+        background-color: white;
+        padding: 0;
+        display: flex;
+        border-radius: 10px;
+    }
+    .side-banner button{
+        margin: 10px;
+    }
+    .matches{
+        width: 720px;
+        margin-left: -60px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    .footer{
+        width: 90%;
+        margin-bottom: 0;
+    }
+    .footer-items{
+        text-align: center;
+    }
+    .footer-items ul{
+        display: grid;
+        grid-template-columns: repeat(4, 0.5fr);
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+    .footer-items ul li a {
+    margin-right: 5px;    }
+}
