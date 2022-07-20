@@ -12,11 +12,10 @@ body{
 }
 
 header{
-
     height: 700px;
     background-color: black;
     border-radius: 20px;
-    margin: 40px 150px 100px 70px;
+    margin: 40px 120px 100px 100px;
 }
 .head-section{
     justify-content: space-between;
@@ -53,7 +52,7 @@ header{
     padding-right: 70px;
 }
 main{
-    margin: 40px 150px 100px 70px;
+    margin: 40px 120px 100px 100px;
 }
 .mid-section{
     display: flex;
@@ -62,11 +61,10 @@ main{
 
 }
 .side-banner{
-    width: 200px;
+    width: 300px;
     height: 300px;
-    margin-right: 40px;
+    margin-right: 50px;
     background-color: black;
-    margin-left: 25px;
     padding: 30px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -98,11 +96,11 @@ main{
     margin-bottom: 140px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 30px;
+    grid-column-gap: 20px;
     grid-row-gap: 30px;
 }
 .transfer{
-    margin-left: 0px;
+    margin-right: 50px;
     border: 1px solid lightgray;
     border-radius: 10px;
 }
@@ -274,4 +272,7 @@ footer hr{
     .footer-items ul li a{
         margin: 2px;
     }
+}
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+    
 }
