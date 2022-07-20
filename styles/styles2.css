@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: 1360px;
+    height: 700px;
+    background-color: black;
+    border-radius: 20px;
+    margin: 40px 150px 100px 70px;
+}
+.head-section{
+    
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    
+}
+.head-blog{
+    color: white;
+    width: 30%;
+    padding-left: 200px;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+.head-blog h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.head-blog button{
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    margin-top: 30px;
+    padding: 16px 18px;
+    border-radius: 5px;
+}
+.fa-angle-right{
+    margin-left: 5px;
+}
+.head-image img{
+    width: 500px;
+    height: 600px;
+    padding-top: 100px;
+    padding-right: 70px;
+}
+.side-banner{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin: 0px 25px 0px 60px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-content: space-between;
+    border-radius: 10px;
+}
+.side-banner button{
+    width: 80%;
+    height: 90px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.side-banner button a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.not-selected{
+    background-color: white;
+}
+.selected{
+    background-color: red;
+}
+.mid-section{
+    display: flex;
+    margin-bottom: 100px;
+}
+.matches{
+    width: 740px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    text-align: center;
+}
+.match{
+    padding: 30px;
+    width: 250px;
+    border: 1px solid lightgray;
+}
+.match h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.image-section{
+    display: flex;
+    align-items: center;
+}
+.image-section img{
+    margin: 0px 10px 20px 10px;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    text-align: center;
+    
+}
+footer h2{
+    color: white;
+    padding: 120px 0px 40px 0px;
+}
+footer hr{
+    width: 60%;
+    margin: auto;
+    border-top: 0px solid rgb(74, 72, 72);
+}
+.footer-items ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.footer-items ul li{
+    list-style: none;
+}
+.footer-items ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+.footer-icons{
+    margin-top: 30px;
+    color: white;
+}
+.footer-icons i{
+    margin-left: 20px;
+}
